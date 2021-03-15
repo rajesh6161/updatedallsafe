@@ -80,3 +80,74 @@
   color: #32679a;
   background: transparent;
 }
+
+/* card system and flexbox layout*/
+.c_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.card {
+  width: 450px;
+  margin-bottom: 40px;
+  position: relative;
+}
+/* .saleTag {
+  position: absolute;
+  width: 60px;
+  height: 28px;
+  background-color: gold;
+  text-align: center;
+  border-radius: 30px;
+  top: -15px;
+  left: -15px;
+} */
+
+.sale {
+  position: absolute;
+
+  background: orange;
+  color: white;
+  height: 2.5rem;
+  width: 2.5rem;
+  text-align: center;
+
+  line-height: 2.5rem;
+
+  transform: rotate(-20deg);
+  animation: beat 1s ease infinite alternate;
+}
+.sale:before,
+.sale:after {
+  content: '';
+  position: absolute;
+  background: inherit;
+  height: inherit;
+  width: inherit;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: rotate(30deg);
+}
+.sale:after {
+  transform: rotate(60deg);
+}
+@keyframes beat {
+  from {
+    transform: rotate(-20deg) scale(1);
+  }
+  to {
+    transform: rotate(-20deg) scale(1.1);
+  }
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 500;
+}
+.price span {
+  text-decoration: line-through;
+}

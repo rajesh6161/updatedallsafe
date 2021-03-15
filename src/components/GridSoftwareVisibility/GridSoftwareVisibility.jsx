@@ -1,20 +1,20 @@
-import React, { useState } from "react";
-import "./Grid.css";
-import img from "./product/p_icon/washing-machine.png";
-import p1 from "./product/p1.jpg";
-import p2 from "./product/p2.JPG";
-import p3 from "./product/p3.JPG";
-import p4 from "./product/p4.JPG";
-import p5 from "./product/p5.JPG";
-import p6 from "./product/p6.JPG";
-import p7 from "./product/p7.JPG";
-import p8 from "./product/p8.JPG";
-import p9 from "./product/p9.JPG";
-import fire from "./product/homepage-hot-offers.svg";
-import white from "./product/homepage-hot-offers white.svg";
-import { Link } from "react-router-dom";
-import sideimg2 from "./product/add/2.JPG";
-import Pulse from "react-reveal/Pulse";
+import React, { useState } from 'react';
+import './Grid.css';
+import img from './product/p_icon/washing-machine.png';
+import p1 from './product/p1.jpg';
+import p2 from './product/p2.JPG';
+import p3 from './product/p3.JPG';
+import p4 from './product/p4.JPG';
+import p5 from './product/p5.JPG';
+import p6 from './product/p6.JPG';
+import p7 from './product/p7.JPG';
+import p8 from './product/p8.JPG';
+import p9 from './product/p9.JPG';
+import fire from './product/homepage-hot-offers.svg';
+import white from './product/homepage-hot-offers white.svg';
+import { Link } from 'react-router-dom';
+import sideimg2 from './product/add/2.JPG';
+import Pulse from 'react-reveal/Pulse';
 const GridSoftwareVisibility = () => {
   const [imgsrc, setsrc] = useState(fire);
   const MouseOver = () => {
@@ -222,7 +222,7 @@ const GridSoftwareVisibility = () => {
                       <a
                         href="#!"
                         className="btn btn-v_pro w-100 bg-secondary"
-                        style={{ zIndex: "999" }}
+                        style={{ zIndex: '999' }}
                       >
                         View All
                       </a>
@@ -322,7 +322,7 @@ const GridSoftwareVisibility = () => {
                       <a
                         href="#!"
                         className="btn btn-v_pro w-100 bg-secondary"
-                        style={{ zIndex: "999" }}
+                        style={{ zIndex: '999' }}
                       >
                         View All
                       </a>
@@ -334,7 +334,7 @@ const GridSoftwareVisibility = () => {
                   <div className="product_wala">
                     <Link
                       to="/hotdeals"
-                      style={{ textDecoration: "none" }}
+                      style={{ textDecoration: 'none' }}
                       className="img-space"
                       onMouseOver={MouseOver}
                       onMouseOut={MouseOut}
@@ -355,7 +355,7 @@ const GridSoftwareVisibility = () => {
                 </div>
               </div>
 
-              <div className="row" style={{ marginTop: "2em" }}>
+              <div className="row" style={{ marginTop: '2em' }}>
                 <div className="col-md-3">
                   <div className="product_wala">
                     <div className="pro_box">
@@ -546,7 +546,7 @@ const GridSoftwareVisibility = () => {
                       <a
                         href="#!"
                         className="btn btn-v_pro w-100 bg-secondary"
-                        style={{ zIndex: "999" }}
+                        style={{ zIndex: '999' }}
                       >
                         View All
                       </a>
@@ -646,7 +646,7 @@ const GridSoftwareVisibility = () => {
                       <a
                         href="#!"
                         className="btn btn-v_pro w-100 bg-secondary"
-                        style={{ zIndex: "999" }}
+                        style={{ zIndex: '999' }}
                       >
                         View All
                       </a>
@@ -661,13 +661,13 @@ const GridSoftwareVisibility = () => {
                       className="img-fluid"
                       alt=""
                       width="100%"
-                      style={{ height: "400px" }}
+                      style={{ height: '400px' }}
                     />
                   </div>
                 </div>
               </div>
 
-              <div className="row" style={{ marginTop: "-11.5em" }}>
+              <div className="row" style={{ marginTop: '-11.5em' }}>
                 <div className="col-md-3">
                   <div className="product_wala">
                     <div className="pro_box">
@@ -858,7 +858,7 @@ const GridSoftwareVisibility = () => {
                       <a
                         href="#!"
                         className="btn btn-v_pro w-100 bg-secondary"
-                        style={{ zIndex: "999" }}
+                        style={{ zIndex: '999' }}
                       >
                         View All
                       </a>
@@ -958,7 +958,7 @@ const GridSoftwareVisibility = () => {
                       <a
                         href="#!"
                         className="btn btn-v_pro w-100 bg-secondary"
-                        style={{ zIndex: "999" }}
+                        style={{ zIndex: '999' }}
                       >
                         View All
                       </a>
